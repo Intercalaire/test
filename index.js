@@ -14,7 +14,7 @@ Client.on("ready", () => {
     console.log("bot opérationnel");
 });
 
-Client.login("OTcxNDI5NjcwNDQ2ODI1NDgy.YnKYYQ.KOeBxJfP_wI--n5ovCaQY1rtQ4Y")
+Client.login("token here")
 
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
